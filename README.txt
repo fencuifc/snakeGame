@@ -1,6 +1,6 @@
 *usage instruction
 **run main.html with chrome or other morden browser.
-(I tested the program with chrome)
+
 
 
 
