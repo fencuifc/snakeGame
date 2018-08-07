@@ -1,0 +1,39 @@
+header{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+main{
+	display: -webkit-flex;
+    display: flex;
+    margin: 0px 300px;
+}
+@media (max-width: 900px) {
+    main {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      margin: auto;
+    }
+}
+.column{
+  padding: 10px;
+  margin: 10px;
+}
+
+.column > .score{
+	display: flex;
+	padding-bottom: 10px
+}
+
+#score{
+	margin:0px;
+}
+
+
+canvas{
+	position: absolute
+}
+#myCanvas{
+	border:1px solid #000000;
+}
